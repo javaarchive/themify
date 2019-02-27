@@ -1,0 +1,67 @@
+:root {
+    --bg: #282828; 
+    --light-bg: #3a3939; 
+  /*--bg: #343148;*/
+}
+#page-wrapper,#main-menubar,.message-wrapper,.message,.public-message-container,.clearfix,.moderator,.actions,.user,.cmty-category-cell-heading,.cmty-category-cell-bottom,.cmty-topic-cell,.cmty-no-more-topics,.cmty-folder-top,.cmty-post-html,.cmty-post-right,.cmty-post-left,.cmty-post-body,pre,.cmty-post-middle,.cmty-tag-filter,.cmty-topic-view-left,.cmty-category-cell-focus,.cmty-poll-display,.cmty-poll-display > a,.cmty-topic-watchers,.cmty-post-username,.aops-panel,.form{
+    background-color: var(--bg) !important;
+}
+.cmty-hide-content{
+    background-color: var(--bg) !important;
+    border-color: cyan;
+    border-width: 1px;
+    border-style: single;
+}
+.class-name,.schedule,.username,#grid > div.grid-header.atop-the-community > div.info > div > div > div.cell.class-name > h1,.menubar-label-link-outer,.menubar-label,.menubar-label-link,.selected,.message,.user,.cmty-category-cell-heading,.cmty-category-cell-bottom,.cmty-topic-cell,.cmty-no-more-topics,.cmty-full-cell-link,.cmty-category-cell-desc,.cmty-category-cell-desc > *,.cmty-full-cell-link,.cmty-topic-cell-post,.cmty-topic-cell-subject,.cmty-color-main,.cmty-small-category-subheader,.cmty-post-html,.cmty-post-body,.cmty-post-username,.cmty-poll-display,.cmty-post-right > span,.cmty-post-right,textarea{
+    color:white !important;
+}
+a{
+    /*Temp test*/
+    /*color:#20e6bb !important;*/
+}
+.logo-img,.sharedsite-wrapper{
+    filter: invert(100%);
+}
+.sharedsite-wrapper,.site-name{
+    color:black !important;
+}
+.whisper-message-container{
+    color: cyan;
+}
+.cmty-hide-heading{
+    color: #2cd21a;
+}
+.cmty-post-username > a:first-child{
+    color: #8f1429 !important;
+}
+/*AoPS classess*/
+.lesson-selector,.problem-body,.problem-box,.solution,.lesson-header > div,.lesson-goals-inner-border,.lesson-goals-inner-cell,.lesson-header-outer,.lesson-header,.lesson-header > h3,.workday,.workday > .cell,.workday > .cell > div,.grid-detail,.grid-detail-tabular-outer,.grid-schedule,.grid-schedule > tr, .grid-schedule > td,td,.alc--intro-text,.aops-panel,.grid-report-row,.grid-report-col-right,.mty-index-card,.cmty-user-profile-main-info{
+background-color: var(--bg) !important;
+}
+.grid-tab-panel,.workday:hover,.lesson-header,.trigger-edit,.topic-unread,.response,input,textarea{
+    background-color: var(--light-bg) !important;
+    /*background-color: var(--bg);*/ /* Take a plunge into darkness */
+}
+.lesson > a:first-child,.problem-body,.header,.lesson-header > div,.header-inner,.lesson-goals-inner-border,.lesson-header>h3,.grid-detail,.grid-detail-tabular-outer,.grid-schedule,.aops-panel,.alc--intro-text,.mty-index-card,.cmty-user-profile-main-info{
+    color: white !important;
+}
+.past{
+    background-color: #421e99;
+}
+.latex,.problem-box > img,.body > img{
+    filter: invert(100%) !important; 
+}
+.short-answer > input{
+    background-color: var(--bg !important);
+    color:white !important;
+}
+.topic-unread{
+    border-width: 1px;
+    border-color: #ea6e00 !important;
+}
+.btn-primary{
+    background-color: #b50247 !important;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #05aaaa !important;
+}
